@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Task List App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     @yield('styles')
 </head>
 
-<body>
+<body class="container mx-auto my-10 max-w-lg">
     <h1>
         @yield('title')
     </h1>
